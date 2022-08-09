@@ -2,28 +2,30 @@
 </script>
 
 <main>
-	<h1>Hello h3x!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<div class="header">Header</div>
+	<div class="sidebar">Left</div>
+	<div class="center">Center</div>
+	<div class="sidebar">Right</div>
+
 </main>
 
 <style>
 	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+		color: white;
 	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+	.header {
+		width: 100%;
 	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	.center {
+		width: 60%;
+		min-height: 80%;
+		float: left;
+		background-color: antiquewhite;
+	}
+	.sidebar {
+		width: 20%;
+		min-height: 80%;
+		float: left;
+		background-color: #333;
 	}
 </style>
