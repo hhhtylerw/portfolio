@@ -6,7 +6,7 @@
 <main>
 	<!-- Header -->
 	<header class="header">
-		Header
+		<img src="https://de20-engine.flamingtext.com/netfu/tmp28004/coollogo_com-9700947.png" alt="my name" style="display:block;margin-left:auto;margin-right: auto;width: 50%;">
 	</header>
 
 	
@@ -85,7 +85,7 @@
 .wrapper{margin:auto;max-width:75rem}
 aside,footer,header,main,section{display:block;margin:0;padding:1.25rem;border:1px solid #000;color:#fff}
 main{padding:0;margin:0;border:0}
-.header{background:#03a9f4}
+.header{border: 0}
 @media screen and (min-width:640px){.flex-container{display:flex}}
 .content{flex:1;}
 .contentinfo{flex:1;background:#129a22;margin:10px 5px}
