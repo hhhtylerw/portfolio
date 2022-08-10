@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <!-- Main Content -->
@@ -13,21 +14,36 @@
 		<!-- Sidebar -->
 		<div class="sidebar">
 			<aside class="sidebarinfo">
-				Sidebar                
+				About Me               
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum!
 				</p>
 			</aside>
 			<aside class="sidebarinfo">
-				Sidebar                
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum!
-				</p>
+				Contacting Me                
+				<table style="margin:10px 0 0 0;">
+					<tr>
+						<td>Email: hhhtylerw@gmail.com</td>
+					</tr>
+					<tr>
+						<td>Phone: 850-508-5707</td>
+					</tr>
+					<tr>
+						<td>Location: Gainesville, FL</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td><a target="_blank" href="https://www.linkedin.com/in/tylerhwoodruff/">>>LinkedIn</a></td>
+						<td style="min-width:2rem"></td>
+						<td><a target="_blank" href="https://github.com/hhhtylerw">>>GitHub</a></td>
+					</tr>
+				</table>
 			</aside>
 			<aside class="sidebarinfo">
-				Sidebar                
+				My Education
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum!
+					I am currently attending the University of Florida and completing a Bachelor's in Computer Science. I am expected to graduate in May 2024.
 				</p>
 			</aside>
 		</div>
@@ -35,7 +51,7 @@
 		<!-- Content -->
 		<div class="content">
 			<section class="contentinfo">
-				Content
+				Experience
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum! ad honestatem enim illum omnem conatum suum referebat, non ad voluptatem. Ergo id est convenienter naturae vivere, a natura discedere. Esse enim quam vellet iniquus iustus poterat inpune. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete.
 				</p>
@@ -44,7 +60,7 @@
 				</p>                
 			</section>
 			<section class="contentinfo">
-				Content
+				Projects
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum! ad honestatem enim illum omnem conatum suum referebat, non ad voluptatem. Ergo id est convenienter naturae vivere, a natura discedere. Esse enim quam vellet iniquus iustus poterat inpune. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete.
 				</p>
