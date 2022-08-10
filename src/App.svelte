@@ -6,7 +6,7 @@
 <main>
 	<!-- Header -->
 	<header class="header">
-		<img src="https://de20-engine.flamingtext.com/netfu/tmp28004/coollogo_com-9700947.png" alt="my name" style="display:block;margin-left:auto;margin-right: auto;width: 50%;">
+		<img src="https://de20-engine.flamingtext.com/netfu/tmp28004/coollogo_com-9700947.png" alt="my name" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
 	</header>
 
 	
