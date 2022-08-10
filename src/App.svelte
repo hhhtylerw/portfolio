@@ -6,7 +6,7 @@
 <main>
 	<!-- Header -->
 	<header class="header">
-		<img src="https://de20-engine.flamingtext.com/netfu/tmp28004/coollogo_com-9700947.png" alt="my name" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
+		<img src="https://media.discordapp.net/attachments/774535774913429504/1006949391552237638/coollogo_com-9700947.png" alt="my name" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
 	</header>
 
 	
@@ -91,5 +91,5 @@ main{padding:0;margin:0;border:0}
 .contentinfo{flex:1;background:#252526;margin:10px 5px}
 .sidebar{flex:0 1 300px;}
 .sidebarinfo{flex:1;background:#323133;margin:10px 5px}
-.footer{border:1px solid #000;background:#616161}
+.footer{border:1px solid #000;background:#616161;position:fixed;bottom:0;left:0;right:0}
 </style>
