@@ -88,8 +88,8 @@ main{padding:0;margin:0;border:0}
 .header{border: 0}
 @media screen and (min-width:640px){.flex-container{display:flex}}
 .content{flex:1;}
-.contentinfo{flex:1;background:#129a22;margin:10px 5px}
+.contentinfo{flex:1;background:#252526;margin:10px 5px}
 .sidebar{flex:0 1 300px;}
-.sidebarinfo{flex:1;background:#673ab7;margin:10px 5px}
+.sidebarinfo{flex:1;background:#323133;margin:10px 5px}
 .footer{border:1px solid #000;background:#616161}
 </style>
