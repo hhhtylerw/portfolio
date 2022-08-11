@@ -1,5 +1,24 @@
 <script>
-
+	let experiences = [
+		{
+			"name": "FluidSecure",
+			"location": "Tallahassee, FL",
+			"title": "Software Engineer Intern",
+			"dates": "June 2022 - August 2022",
+		},
+		{
+			"name": "FluidSecure",
+			"location": "Tallahassee, FL",
+			"title": "Software Engineer Intern",
+			"dates": "June 2022 - August 2022",
+		},
+		{
+			"name": "FluidSecure",
+			"location": "Tallahassee, FL",
+			"title": "Software Engineer Intern",
+			"dates": "June 2022 - August 2022",
+		}
+	]
 </script>
 
 <!-- Main Content -->
@@ -19,6 +38,7 @@
 				<p>
 					I am a self-taught software engineer with a passion for writing software. I enjoy making things that regular people can benefit from and improve their lives with.
 				</p>
+				<table><tr><td><a target="_blank" href="https://google.com">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
@@ -49,12 +69,18 @@
 		<div class="content">
 			<section class="contentinfo">
 				>Experience
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum! ad honestatem enim illum omnem conatum suum referebat, non ad voluptatem. Ergo id est convenienter naturae vivere, a natura discedere. Esse enim quam vellet iniquus iustus poterat inpune. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete.
-				</p>
-				<p>
-					Quam ob rem tandem, inquit, non satisfacit? Haec quo modo conveniant, non sane intellego. Ita ceterorum sententiis semotis relinquitur non mihi cum Torquato, sed virtuti cum voluptate certatio. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Quem ad modum quis ambulet, sedeat, qui ductus oris, qui vultus in quoque sit? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Quo tandem modo? Ex rebus enim timiditas, non ex vocabulis nascitur. Deinde prima illa, quae in congressu solemus: Quid tu, inquit, huc? Quod eo liquidius faciet, si perspexerit rerum inter eas verborumne sit controversia.
-				</p>                
+				{#each experiences as experience}
+					<div>
+						<p style="float:left">{experience.name}</p>
+						<p style="float:right">{experience.location}</p>
+					</div>
+					<div style="clear: both;"></div>
+					<div>
+						<p style="float:left">{experience.title}</p>
+						<p style="float:right">{experience.dates}</p>
+					</div>
+					<div style="clear: both;"></div>
+				{/each}
 			</section>
 			<section class="contentinfo">
 				>Projects
@@ -87,16 +113,17 @@
 </main>
 
 <style>
-*,:after,:before{box-sizing:border-box}
-.wrapper{margin:auto;max-width:75rem}
-aside,footer,header,main,section{display:block;margin:0;padding:1.25rem;border:2px solid #213c53;color:#fff}
-main{padding:0;margin:0;border:0}
-.header{border:0;text-align: center; font-size: 80px;font-weight: 900;}
-@media screen and (min-width:640px){.flex-container{display:flex}}
-.content{flex:1;}
-.contentinfo{flex:1;background:transparent;margin:10px 5px}
-.sidebar{flex:0 1 300px;}
-.sidebarinfo{flex:1;background:transparent;margin:10px 5px}
-.footer{border:2px solid #213c53;background:transparent;padding:0;text-align:center;}
-a{color:aqua;background-color: none;}
+	*,:after,:before{box-sizing:border-box}
+	.wrapper{margin:auto;max-width:75rem}
+	aside,footer,header,main,section{display:block;margin:0;padding:1.25rem;border:2px solid #213c53;color:#fff}
+	main{padding:0;margin:0;border:0}
+	.header{border:0;text-align: center; font-size: 80px;font-weight: 900;}
+	@media screen and (min-width:640px){.flex-container{display:flex}}
+	.content{flex:1;}
+	.contentinfo{flex:1;background:transparent;margin:10px 5px}
+	.sidebar{flex:0 1 300px;}
+	.sidebarinfo{flex:1;background:transparent;margin:10px 5px}
+	.footer{border:2px solid #213c53;background:transparent;padding:0;text-align:center;}
+	a{color:aqua;background-color: none;}
+
 </style>
