@@ -5,18 +5,21 @@
 			"location": "Tallahassee, FL",
 			"title": "Software Engineer Intern",
 			"dates": "June 2022 - August 2022",
+			"description": ["- Hello", "- Robot"]
 		},
 		{
 			"name": "FluidSecure",
 			"location": "Tallahassee, FL",
 			"title": "Software Engineer Intern",
 			"dates": "June 2022 - August 2022",
+			"description": ["- Hello", "- Robot"]
 		},
 		{
 			"name": "FluidSecure",
 			"location": "Tallahassee, FL",
 			"title": "Software Engineer Intern",
 			"dates": "June 2022 - August 2022",
+			"description": ["- Hello", "- Robot"]
 		}
 	]
 </script>
@@ -71,15 +74,13 @@
 				>Experience
 				{#each experiences as experience}
 					<div>
-						<p style="float:left">{experience.name}</p>
-						<p style="float:right">{experience.location}</p>
+						<p style="float:left;margin-bottom:0">{experience.name}<br>{experience.title}</p>
+						<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
+						<div style="clear: both;"></div>
+						{#each experience.description as description}
+							<p style="margin:0">{description}</p>
+						{/each}
 					</div>
-					<div style="clear: both;"></div>
-					<div>
-						<p style="float:left">{experience.title}</p>
-						<p style="float:right">{experience.dates}</p>
-					</div>
-					<div style="clear: both;"></div>
 				{/each}
 			</section>
 			<section class="contentinfo">
@@ -125,5 +126,4 @@
 	.sidebarinfo{flex:1;background:transparent;margin:10px 5px}
 	.footer{border:2px solid #213c53;background:transparent;padding:0;text-align:center;}
 	a{color:aqua;background-color: none;}
-
 </style>
