@@ -101,4 +101,5 @@ main{padding:0;margin:0;border:0}
 .sidebar{flex:0 1 300px;}
 .sidebarinfo{flex:1;background:#323133;margin:10px 5px}
 .footer{border:1px solid #000;background:#616161;position:fixed;bottom:0;left:0;right:0;padding:0;text-align:center;}
+a{color:aqua;background-color: none;}
 </style>
