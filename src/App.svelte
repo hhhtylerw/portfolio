@@ -17,22 +17,16 @@
 			<aside class="sidebarinfo">
 				>About               
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum!
+					I am a self-taught software engineer with a passion for writing software. I enjoy making things that regular people can benefit from and improve their lives with.
 				</p>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
-				<table style="margin:10px 0 0 0;">
-					<tr>
-						<td>Email: hhhtylerw@gmail.com</td>
-					</tr>
-					<tr>
-						<td>Phone: 850-508-5707</td>
-					</tr>
-					<tr>
-						<td>Location: Gainesville, FL</td>
-					</tr>
-				</table>
+				<p>
+					hhhtylerw@gmail.com<br>
+					850-508-5707<br>
+					Gainesville, FL
+				</p>
 				<table>
 					<tr>
 						<td><a target="_blank" href="https://www.linkedin.com/in/tylerhwoodruff/">>>LinkedIn</a></td>
@@ -44,7 +38,9 @@
 			<aside class="sidebarinfo">
 				>Education
 				<p>
-					I am currently attending the University of Florida and completing a Bachelor's in Computer Science. I am expected to graduate in May 2024.
+					University of Florida<br>
+					Computer Science<br>
+					Grad. May 2024
 				</p>
 			</aside>
 		</div>
