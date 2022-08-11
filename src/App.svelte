@@ -72,6 +72,15 @@
 		</div>
 	</div>
 	
+	<!-- Right Dolphin -->
+	<div>
+		<img src="https://images-ext-1.discordapp.net/external/oQhYVctHm6VkxC1G66npb7KfEsuLWYJ8C5Odqwwxhoo/https/i.pinimg.com/originals/af/fb/a2/affba24abd5d2eef5090a9e15f400acc.gif?width=279&height=463" alt="Right Dolphin" style="position:fixed;bottom:0;right:0">
+	</div>
+
+	<!-- Left Dolphin -->
+	<div>
+		<img src="https://images-ext-1.discordapp.net/external/oQhYVctHm6VkxC1G66npb7KfEsuLWYJ8C5Odqwwxhoo/https/i.pinimg.com/originals/af/fb/a2/affba24abd5d2eef5090a9e15f400acc.gif?width=279&height=463" alt="Left Dolphin" style="position:fixed;bottom:0;left:0;">
+	</div>
 
 	<!-- Footer -->
 	<footer class="footer">
