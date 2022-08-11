@@ -4,22 +4,22 @@
 			"name": "FluidSecure",
 			"location": "Tallahassee, FL",
 			"title": "Software Engineer Intern",
-			"dates": "June 2022 - August 2022",
-			"description": ["- Hello", "- Robot"]
+			"dates": "Jun 2022 - Aug 2022",
+			"description": ["- Made commits to Apple Watch app", "- Created marketing content and webpages to display it", "- Made various website fixes/changes"]
 		},
 		{
-			"name": "FluidSecure",
-			"location": "Tallahassee, FL",
-			"title": "Software Engineer Intern",
-			"dates": "June 2022 - August 2022",
-			"description": ["- Hello", "- Robot"]
+			"name": "0xRay",
+			"location": "Remote",
+			"title": "Co-Owner / Software Engineer",
+			"dates": "Sep 2021 - Present",
+			"description": ["- Created and hosted a free application with 2.5k+ users", "- Worked with a team to advertise and monetize product"]
 		},
 		{
-			"name": "FluidSecure",
-			"location": "Tallahassee, FL",
-			"title": "Software Engineer Intern",
-			"dates": "June 2022 - August 2022",
-			"description": ["- Hello", "- Robot"]
+			"name": "Jolt Industries",
+			"location": "Remote",
+			"title": "Software Engineer / Sales Rep",
+			"dates": "Nov 2020 - Jan 2022",
+			"description": ["- Created free, consumer-oriented software that allowed users to profit"]
 		}
 	]
 </script>
@@ -60,7 +60,7 @@
 			</aside>
 			<aside class="sidebarinfo">
 				>Education
-				<p>
+				<p style="margin-bottom:0">
 					University of Florida<br>
 					Computer Science<br>
 					Grad. May 2024
