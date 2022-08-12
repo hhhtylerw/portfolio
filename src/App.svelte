@@ -97,7 +97,7 @@
 				<p style="margin-bottom:0">
 					University of Florida<br>
 					Computer Science<br>
-					Grad. <a>May 2024</a>
+					Grad. <a class="notlink">May 2024</a>
 				</p>
 			</aside>
 		</div>
@@ -108,7 +108,7 @@
 				>Experience
 				{#each experiences as experience}
 					<div>
-						<p style="float:left;margin-bottom:0">{experience.name}<br><a>{experience.title}</a></p>
+						<p style="float:left;margin-bottom:0">{experience.name}<br><a class="notlink">{experience.title}</a></p>
 						{#if window.innerWidth > 500}
 							<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
 						{:else}
@@ -177,4 +177,5 @@
 	.sidebarinfo{flex:1;background:transparent;margin:10px 5px}
 	.footer{border:2px solid #213c53;background:transparent;padding:0;text-align:center;}
 	a{color:aqua;background-color: none;}
+	.notlink{text-decoration: none;}
 </style>
