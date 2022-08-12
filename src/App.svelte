@@ -118,7 +118,7 @@
 	.wrapper{margin:auto;max-width:75rem}
 	aside,footer,header,main,section{display:block;margin:0;padding:1.25rem;border:2px solid #213c53;color:#fff}
 	main{padding:0;margin:0;border:0}
-	.header{border:0;text-align: center; font-size: 80px;font-weight: 900;}
+	.header{border:0;text-align: center; font-size: 70px;font-weight: 900;}
 	@media screen and (min-width:640px){.flex-container{display:flex}}
 	.content{flex:1;}
 	.contentinfo{flex:1;background:transparent;margin:10px 5px}
