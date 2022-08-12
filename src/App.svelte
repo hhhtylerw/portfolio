@@ -97,7 +97,7 @@
 				<p style="margin-bottom:0">
 					University of Florida<br>
 					Computer Science<br>
-					Grad. May 2024
+					Grad. <a>May 2024</a>
 				</p>
 			</aside>
 		</div>
