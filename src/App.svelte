@@ -52,7 +52,7 @@
 			"name": "Jolt AutoQuickTask",
 			"caption": ">>User Success",
 			"link": "https://google.com",
-			"description": ["- Created a consumer-oriented application that automatically starts tasks on sneaker bots for users on random restocks", "- Successfully bought shoes for multiple people"]
+			"description": ["- Created a free, consumer-oriented application that automatically starts tasks on sneaker bots for users on random e- commerce restocks", "- Successfully bought profitable shoes for multiple people"]
 		}
 	]
 </script>
@@ -125,12 +125,12 @@
 				>Projects
 				{#each projects as project}
 					<div>
-						<p style="float:left;margin-bottom:0">{project.name}</p>
-						{#if window.innerWidth > 500}
+						<p style="float:left;margin-bottom:0">{project.name}<br><a target="_blank" href={project.link}>{project.caption}</a></p>
+						<!--{#if window.innerWidth > 500}
 							<p style="float:right;text-align:right;margin-bottom:0;"><a target="_blank" href={project.link}>{project.caption}</a></p>
 						{:else}
 							<p style="float:left;text-align:left;"><a target="_blank" href={project.link}>{project.caption}</a></p>
-						{/if}
+						{/if}-->
 						<div style="clear: both;"></div>
 							{#each project.description as description}
 						<p style="margin:0">{description}</p>
