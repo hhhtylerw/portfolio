@@ -22,6 +22,21 @@
 			"description": ["- Created free, consumer-oriented software that allowed users to profit", "- Marketed software and IP proxy solutions"]
 		}
 	]
+
+	let projects = [
+		{
+			"name": "Sables",
+			"caption": ">>Source Code",
+			"link": "https://google.com",
+			"description": ["- A web application that allows users to create and share custom playlists", "- Users can create playlists from their Spotify library", "- Users can share playlists with other users", "- Users can also create playlists from their own music"]
+		},
+		{
+			"name": "Sables",
+			"caption": ">>Source Code",
+			"link": "https://google.com",
+			"description": ["- A web application that allows users to create and share custom playlists", "- Users can create playlists from their Spotify library", "- Users can share playlists with other users", "- Users can also create playlists from their own music"]
+		},
+	]
 </script>
 
 <!-- Main Content -->
@@ -74,28 +89,36 @@
 			<section class="contentinfo">
 				>Experience
 				{#each experiences as experience}
-				<div>
-					<p style="float:left;margin-bottom:0">{experience.name}<br>{experience.title}</p>
-					{#if window.innerWidth > 500}
-						<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
-					{:else}
-						<p style="float:left;text-align:left;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
-					{/if}
-					<div style="clear: both;"></div>
-					{#each experience.description as description}
-					<p style="margin:0">{description}</p>
-					{/each}
-				</div>
+					<div>
+						<p style="float:left;margin-bottom:0">{experience.name}<br>{experience.title}</p>
+						{#if window.innerWidth > 500}
+							<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
+						{:else}
+							<p style="float:left;text-align:left;">{experience.location}<br>{experience.dates}</p>
+						{/if}
+						<div style="clear: both;"></div>
+						{#each experience.description as description}
+						<p style="margin:0">{description}</p>
+						{/each}
+					</div>
 				{/each}
 			</section>
 			<section class="contentinfo">
 				>Projects
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Itaque quantum adiit periculum! ad honestatem enim illum omnem conatum suum referebat, non ad voluptatem. Ergo id est convenienter naturae vivere, a natura discedere. Esse enim quam vellet iniquus iustus poterat inpune. Tu enim ista lenius, hic Stoicorum more nos vexat. Duo Reges: constructio interrete.
-				</p>
-				<p>
-					Quam ob rem tandem, inquit, non satisfacit? Haec quo modo conveniant, non sane intellego. Ita ceterorum sententiis semotis relinquitur non mihi cum Torquato, sed virtuti cum voluptate certatio. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Quem ad modum quis ambulet, sedeat, qui ductus oris, qui vultus in quoque sit? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Quo tandem modo? Ex rebus enim timiditas, non ex vocabulis nascitur. Deinde prima illa, quae in congressu solemus: Quid tu, inquit, huc? Quod eo liquidius faciet, si perspexerit rerum inter eas verborumne sit controversia.
-				</p>                
+				{#each projects as project}
+					<div>
+						<p style="float:left;margin-bottom:0">{project.name}</p>
+						{#if window.innerWidth > 500}
+							<p style="float:right;text-align:right;margin-bottom:0;"><a target="_blank" href={project.link}>{project.caption}</a></p>
+						{:else}
+							<p style="float:left;text-align:left;"><a target="_blank" href={project.link}>{project.caption}</a></p>
+						{/if}
+						<div style="clear: both;"></div>
+							{#each project.description as description}
+						<p style="margin:0">{description}</p>
+						{/each}
+					</div>
+				{/each}
 			</section>
 
 		</div>
