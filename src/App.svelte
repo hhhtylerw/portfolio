@@ -25,17 +25,35 @@
 
 	let projects = [
 		{
-			"name": "Sables",
-			"caption": ">>Source Code",
-			"link": "https://google.com",
-			"description": ["- A web application that allows users to create and share custom playlists", "- Users can create playlists from their Spotify library", "- Users can share playlists with other users", "- Users can also create playlists from their own music"]
+			"name": "Sables (Hack NYU 2022)",
+			"caption": ">>Website",
+			"link": "https://sables.tech",
+			"description": ["- Created an application that increases computer accessibility for persons with visual impairments", "- Created a website to promote the application"]
 		},
 		{
-			"name": "Sables",
-			"caption": ">>Source Code",
-			"link": "https://google.com",
-			"description": ["- A web application that allows users to create and share custom playlists", "- Users can create playlists from their Spotify library", "- Users can share playlists with other users", "- Users can also create playlists from their own music"]
+			"name": "Eno Delete",
+			"caption": ">>GitHub Repo",
+			"link": "https://github.com/hhhtylerw/eno-delete",
+			"description": ["- Created a script that automatically deletes Capital One virtual cards", "- Useful for persons in the \"Sneaker Botting\" community"]
 		},
+		{
+			"name": "UF Course Monitor",
+			"caption": ">>GitHub Repo",
+			"link": "https://github.com/hhhtylerw/class-monitor",
+			"description": ["- Created an application that monitors for openings in UF classes and notifies via text", "- Successfully notified users of openings"]
+		},
+		{
+			"name": "Jolt Eats",
+			"caption": ">>GitHub Repo",
+			"link": "https://google.com",
+			"description": ["- Created a script that generates vouchers for free food at major restaurant chains"]
+		},
+		{
+			"name": "Jolt AutoQuickTask",
+			"caption": ">>User Success",
+			"link": "https://google.com",
+			"description": ["- Created a consumer-oriented application that automatically starts tasks on sneaker bots for users on random restocks", "- Successfully bought shoes for multiple people"]
+		}
 	]
 </script>
 
@@ -90,7 +108,7 @@
 				>Experience
 				{#each experiences as experience}
 					<div>
-						<p style="float:left;margin-bottom:0">{experience.name}<br>{experience.title}</p>
+						<p style="float:left;margin-bottom:0">{experience.name}<br><a>{experience.title}</a></p>
 						{#if window.innerWidth > 500}
 							<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
 						{:else}
@@ -133,6 +151,11 @@
 	<div>
 		<img src="https://images-ext-1.discordapp.net/external/oQhYVctHm6VkxC1G66npb7KfEsuLWYJ8C5Odqwwxhoo/https/i.pinimg.com/originals/af/fb/a2/affba24abd5d2eef5090a9e15f400acc.gif?width=279&height=463" alt="Left Dolphin" style="position:fixed;bottom:0;left:0;">
 	</div> -->
+
+	<!-- Dolphin -->
+	<div>
+		<img src="https://images-ext-1.discordapp.net/external/nUqZz1eJj6Xl7z_lCZgi2Jq5TRexi9KEG315US8AGAI/http/juliannes.website/_n/_images/dolphin-swimming-animation.gif" alt="dolphin" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
+	</div>
 
 	<!-- Footer -->
 	<footer class="footer">
