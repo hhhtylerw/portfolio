@@ -19,7 +19,7 @@
 			"location": "Remote",
 			"title": "Software Engineer / Sales Rep",
 			"dates": "Nov 2020 - Jan 2022",
-			"description": ["- Created free, consumer-oriented software that allowed users to profit"]
+			"description": ["- Created free, consumer-oriented software that allowed users to profit", "- Marketed software and IP proxy solutions"]
 		}
 	]
 </script>
@@ -32,6 +32,7 @@
 		Tyler Woodruff
 	</header>
 
+	
 	
 	<div class="flex-container wrapper" style="padding:0 1rem">
 		<!-- Sidebar -->
@@ -73,14 +74,18 @@
 			<section class="contentinfo">
 				>Experience
 				{#each experiences as experience}
-					<div>
-						<p style="float:left;margin-bottom:0">{experience.name}<br>{experience.title}</p>
+				<div>
+					<p style="float:left;margin-bottom:0">{experience.name}<br>{experience.title}</p>
+					{#if window.innerWidth > 500}
 						<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
-						<div style="clear: both;"></div>
-						{#each experience.description as description}
-							<p style="margin:0">{description}</p>
-						{/each}
-					</div>
+					{:else}
+						<p style="float:left;text-align:left;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
+					{/if}
+					<div style="clear: both;"></div>
+					{#each experience.description as description}
+					<p style="margin:0">{description}</p>
+					{/each}
+				</div>
 				{/each}
 			</section>
 			<section class="contentinfo">
