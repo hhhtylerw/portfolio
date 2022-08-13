@@ -17,7 +17,7 @@
 		{
 			"name": "Jolt Industries",
 			"location": "Remote",
-			"title": "Software Engineer / Sales Rep",
+			"title": "Software Engineer / Sales",
 			"dates": "Nov 2020 - Jan 2022",
 			"description": ["- Created free, consumer-oriented software that allowed users to profit", "- Marketed software and IP proxy solutions"]
 		}
