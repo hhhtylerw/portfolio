@@ -26,30 +26,35 @@
 	let projects = [
 		{
 			"name": "Sables (Hack NYU 2022)",
+			"date": "Feb 2022",
 			"caption": ">>Website",
 			"link": "https://sables.tech",
 			"description": ["- Created an application that increases computer accessibility for persons with visual impairments", "- Created a website to promote the application"]
 		},
 		{
 			"name": "Eno Delete",
+			"date": "Jul 2022",
 			"caption": ">>GitHub Repo",
 			"link": "https://github.com/hhhtylerw/eno-delete",
 			"description": ["- Created a script that automatically deletes Capital One virtual cards", "- Useful for persons in the \"Sneaker Botting\" community"]
 		},
 		{
 			"name": "UF Course Monitor",
+			"date": "Apr 2022",
 			"caption": ">>GitHub Repo",
 			"link": "https://github.com/hhhtylerw/class-monitor",
 			"description": ["- Created an application that monitors for openings in UF classes and notifies via text", "- Successfully notified users of openings"]
 		},
 		{
 			"name": "Jolt Eats",
+			"date": "Dec 2021",
 			"caption": ">>GitHub Repo",
 			"link": "https://google.com",
 			"description": ["- Created a script that generates vouchers for free food at major restaurant chains"]
 		},
 		{
 			"name": "Jolt AutoQuickTask",
+			"date": "May 2021",
 			"caption": ">>User Success",
 			"link": "https://google.com",
 			"description": ["- Created a free, consumer-oriented application that automatically starts tasks on sneaker bots for users on random e-commerce restocks", "- Successfully bought profitable shoes for multiple people"]
@@ -126,6 +131,7 @@
 				{#each projects as project}
 					<div>
 						<p style="float:left;margin-bottom:0">{project.name}<br><a target="_blank" href={project.link}>{project.caption}</a></p>
+						<p style="float:right;text-align:right:margin-bottom:0">{project.date}</p>
 						<!--{#if window.innerWidth > 500}
 							<p style="float:right;text-align:right;margin-bottom:0;"><a target="_blank" href={project.link}>{project.caption}</a></p>
 						{:else}
