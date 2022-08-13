@@ -52,7 +52,7 @@
 			"name": "Jolt AutoQuickTask",
 			"caption": ">>User Success",
 			"link": "https://google.com",
-			"description": ["- Created a free, consumer-oriented application that automatically starts tasks on sneaker bots for users on random e- commerce restocks", "- Successfully bought profitable shoes for multiple people"]
+			"description": ["- Created a free, consumer-oriented application that automatically starts tasks on sneaker bots for users on random e-commerce restocks", "- Successfully bought profitable shoes for multiple people"]
 		}
 	]
 </script>
