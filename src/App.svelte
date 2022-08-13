@@ -118,7 +118,7 @@
 							<p style="float:right;text-align:right;margin-bottom:0;">{experience.location}<br>{experience.dates}</p>
 						{:else}
 							<div style="clear: both;"></div>		
-							<p style="float:left;text-align:left;">{experience.location}<br>{experience.dates}</p>
+							<p style="float:left;text-align:left;margin-top:0">{experience.location}<br>{experience.dates}</p>
 						{/if}
 						<div style="clear: both;"></div>
 						{#each experience.description as description}
@@ -131,7 +131,7 @@
 				>Projects
 				{#each projects as project}
 					<div>
-						<p style="float:left;margin-bottom:0">{project.name}<br><a target="_blank" href={project.link}>{project.caption}</a></p>
+						<p style="float:left">{project.name}<br><a target="_blank" href={project.link}>{project.caption}</a></p>
 						<p style="float:right;text-align:right:margin-bottom:0">{project.date}</p>
 						<!--{#if window.innerWidth > 500}
 							<p style="float:right;text-align:right;margin-bottom:0;"><a target="_blank" href={project.link}>{project.caption}</a></p>
