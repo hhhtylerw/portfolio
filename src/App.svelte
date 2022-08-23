@@ -78,7 +78,7 @@
 			<aside class="sidebarinfo">
 				>About               
 				<p>
-					I am a self-taught software engineer with a passion for writing software. I enjoy making things that regular people can benefit from and improve their lives with.
+					I am a self-taught software engineer with a passion for creating things. I enjoy making things that regular people can benefit from and improve their lives with.
 				</p>
 				<table><tr><td><a target="_blank" href="https://google.com">>>Resume</a></td></tr></table>
 			</aside>
