@@ -49,7 +49,7 @@
 			"name": "Jolt Eats",
 			"date": "Dec 2021",
 			"caption": ">>GitHub Repo",
-			"link": "https://google.com",
+			"link": "https://github.com/hhhtylerw/marley-gen",
 			"description": ["- Created a script that generates vouchers for free food at major restaurant chains"]
 		},
 		{
