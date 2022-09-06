@@ -19,7 +19,7 @@
 			"location": "Remote",
 			"title": "Software Engineer / Sales",
 			"dates": "Nov 2020 - Jan 2022",
-			"description": ["- Created free, consumer-oriented software that allowed users to profit", "- Marketed software and IP proxy solutions"]
+			"description": ["- Created free, consumer-oriented software that enabled users to profit", "- Marketed software and IP proxy solutions"]
 		}
 	]
 
@@ -43,7 +43,7 @@
 			"date": "Apr 2022",
 			"caption": ">>GitHub Repo",
 			"link": "https://github.com/hhhtylerw/class-monitor",
-			"description": ["- Created an application that monitors for openings in UF classes and notifies via text", "- Successfully notified users of openings"]
+			"description": ["- Created an application that monitors for openings in classes and notifies via text", "- Successfully notified users of openings"]
 		},
 		{
 			"name": "Jolt Eats",
@@ -66,7 +66,6 @@
 <main>
 	<!-- Header -->
 	<header class="header">
-		<!--<img src="https://media.discordapp.net/attachments/774535774913429504/1006949391552237638/coollogo_com-9700947.png" alt="my name" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">-->
 		Tyler Woodruff
 	</header>
 
@@ -78,9 +77,9 @@
 			<aside class="sidebarinfo">
 				>About               
 				<p>
-					I am a self-taught software engineer with a passion for creating things. I enjoy making things that regular people can benefit from and improve their lives with.
+					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
 				</p>
-				<table><tr><td><a target="_blank" href="https://google.com">>>Resume</a></td></tr></table>
+				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/819783862762209299/1016523560208048168/Tyler_Woodruff_Resume.pdf">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
