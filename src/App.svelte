@@ -79,7 +79,7 @@
 				<p>
 					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
 				</p>
-				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/819783862762209299/1016527395836141598/Tyler_Woodruff_Resume.pdf">>>Resume</a></td></tr></table>
+				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/819783862762209299/1017306562102054912/Tyler_Woodruff_Resume.pdf">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
