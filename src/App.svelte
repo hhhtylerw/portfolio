@@ -1,4 +1,6 @@
 <script>
+	import { onMount } from 'svelte';
+
 	let experiences = [
 		{
 			"name": "FluidSecure",
@@ -60,6 +62,27 @@
 			"description": ["- Created a free, consumer-oriented application that automatically starts tasks on sneaker bots for users on random e-commerce restocks", "- Successfully bought profitable shoes for multiple people"]
 		}
 	]
+
+	onMount(async () => {
+		await fetch("https://us-central1-portfolio-tracker-3f164.cloudfunctions.net/analytics");
+	});
+
+	async function getAnalytics() {
+		const total = await fetch("https://us-central1-portfolio-tracker-3f164.cloudfunctions.net/totalVisits")
+		.then(function(response) {
+			return response.json();
+		})
+		.then(function(parsedData) {
+			console.log("Total visits: " + parsedData);
+		})
+		const unique = await fetch("https://us-central1-portfolio-tracker-3f164.cloudfunctions.net/uniqueVisits")
+		.then(function(response) {
+			return response.json();
+		})
+		.then(function(parsedData) {
+			console.log("Unique visits: " + parsedData);
+		})
+	}
 </script>
 
 <!-- Main Content -->
@@ -68,8 +91,6 @@
 	<header class="header">
 		Tyler Woodruff
 	</header>
-
-	
 	
 	<div class="flex-container wrapper" style="padding:0 1rem">
 		<!-- Sidebar -->
@@ -158,7 +179,7 @@
 	</div> -->
 
 	<!-- Dolphin -->
-	<div>
+	<div on:click|once={getAnalytics}>
 		<img src="https://images-ext-1.discordapp.net/external/nUqZz1eJj6Xl7z_lCZgi2Jq5TRexi9KEG315US8AGAI/http/juliannes.website/_n/_images/dolphin-swimming-animation.gif" alt="dolphin" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
 	</div>
 
