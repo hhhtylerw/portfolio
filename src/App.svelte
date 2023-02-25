@@ -13,7 +13,7 @@
 			"name": "0xRay",
 			"location": "Remote",
 			"title": "Co-Owner / Software Engineer",
-			"dates": "Sep 2021 - Present",
+			"dates": "Sep 2021 - Oct 2022",
 			"description": ["- Created and hosted a free application with 2.5k+ users", "- Worked with a team to advertise and monetize product"]
 		},
 		{
