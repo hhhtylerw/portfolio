@@ -3,63 +3,90 @@
 
 	let experiences = [
 		{
+			"name": "FIS Global",
+			"location": "Milwaukee, WI",
+			"title": "Software Engineer Intern",
+			"dates": "Jun 2023 - Aug 2023",
+			"description": ["- In progress..."]
+		},
+		{
 			"name": "FluidSecure",
 			"location": "Tallahassee, FL",
-			"title": "Software Engineer Intern",
+			"title": "Software Developer Intern",
 			"dates": "Jun 2022 - Aug 2022",
-			"description": ["- Made commits to Apple Watch app", "- Created marketing content and webpages to display it", "- Made various website fixes/changes"]
-		},
-		{
-			"name": "0xRay",
-			"location": "Remote",
-			"title": "Co-Owner / Software Engineer",
-			"dates": "Sep 2021 - Oct 2022",
-			"description": ["- Created and hosted a free application with 2.5k+ users", "- Worked with a team to advertise and monetize product"]
-		},
-		{
-			"name": "Jolt Industries",
-			"location": "Remote",
-			"title": "Software Engineer / Sales",
-			"dates": "Nov 2020 - Jan 2022",
-			"description": ["- Created free, consumer-oriented software that enabled users to profit", "- Marketed software and IP proxy solutions"]
+			"description": 
+				[
+					"- Developed frontend changes and fixes for website",
+				 	"- Worked with international team to develop Apple Watch app", 
+					"- Created marketing materials for newly-released products"
+				]
 		}
+			// },
+		// {
+		// 	"name": "0xRay",
+		// 	"location": "Remote",
+		// 	"title": "Co-Owner / Software Engineer",
+		// 	"dates": "Sep 2021 - Oct 2022",
+		// 	"description": ["- Created and hosted a free application with 2.5k+ users", "- Worked with a team to advertise and monetize product"]
+		// },
+		// {
+		// 	"name": "Jolt Industries",
+		// 	"location": "Remote",
+		// 	"title": "Software Engineer / Sales",
+		// 	"dates": "Nov 2020 - Jan 2022",
+		// 	"description": ["- Created free, consumer-oriented software that enabled users to profit", "- Marketed software and IP proxy solutions"]
+		// }
 	]
 
 	let projects = [
 		{
-			"name": "Sables (Hack NYU 2022)",
+			"name": "Hash Function Comparison",
+			"date": "Dec 2022",
+			"caption": ">>GitHub Repo",
+			"link": "https://github.com/hhhtylerw/Hash-Function-Project",
+			"description": ["- Implemented SHA-256 and MD5 to NIST whitepaper specification from scratch and a system to compare them"]
+		},
+		{
+			"name": "Sables Accessibility Tool (Hackathon)",
 			"date": "Feb 2022",
 			"caption": ">>Website",
-			"link": "https://sables.tech",
-			"description": ["- Created an application that increases computer accessibility for persons with visual impairments", "- Created a website to promote the application"]
+			"link": "https://sables-hhhtylerw.vercel.app",
+			"description": ["- Created an application that promotes accessibility on the internet for persons with visual impairments"]
 		},
+		// {
+		// 	"name": "Eno Delete",
+		// 	"date": "Jul 2022",
+		// 	"caption": ">>GitHub Repo",
+		// 	"link": "https://github.com/hhhtylerw/eno-delete",
+		// 	"description": ["- Created a script that automatically deletes Capital One virtual cards", "- Useful for persons in the \"Sneaker Botting\" community"]
+		// },
+		// {
+		// 	"name": "UF Course Monitor",
+		// 	"date": "Apr 2022",
+		// 	"caption": ">>GitHub Repo",
+		// 	"link": "https://github.com/hhhtylerw/class-monitor",
+		// 	"description": ["- Created an application that monitors for openings in classes and notifies via text", "- Successfully notified users of openings"]
+		// },
+		// {
+		// 	"name": "Jolt Eats",
+		// 	"date": "Dec 2021",
+		// 	"caption": ">>GitHub Repo",
+		// 	"link": "https://github.com/hhhtylerw/marley-gen",
+		// 	"description": ["- Created a script that generates vouchers for free food at major restaurant chains"]
+		// },
 		{
-			"name": "Eno Delete",
-			"date": "Jul 2022",
-			"caption": ">>GitHub Repo",
-			"link": "https://github.com/hhhtylerw/eno-delete",
-			"description": ["- Created a script that automatically deletes Capital One virtual cards", "- Useful for persons in the \"Sneaker Botting\" community"]
-		},
-		{
-			"name": "UF Course Monitor",
-			"date": "Apr 2022",
-			"caption": ">>GitHub Repo",
-			"link": "https://github.com/hhhtylerw/class-monitor",
-			"description": ["- Created an application that monitors for openings in classes and notifies via text", "- Successfully notified users of openings"]
-		},
-		{
-			"name": "Jolt Eats",
-			"date": "Dec 2021",
-			"caption": ">>GitHub Repo",
-			"link": "https://github.com/hhhtylerw/marley-gen",
-			"description": ["- Created a script that generates vouchers for free food at major restaurant chains"]
+			"name": "0xRay NFT Rarity Extension",
+			"date": "Sep 2021",
+			"caption": ">>Twitter Page",
+			"link": "https://twitter.com/0xrarity",
+			"description": ["- Designed and built a complex web application to deliver proprietary Web3 investment information to end users via a chrome extension", "- Concurrently served over 2,000 users"]
 		},
 		{
 			"name": "Jolt AutoQuickTask",
 			"date": "May 2021",
-			"caption": ">>User Success",
-			"link": "https://google.com",
-			"description": ["- Created a free, consumer-oriented application that automatically starts tasks on sneaker bots for users on random e-commerce restocks", "- Successfully bought profitable shoes for multiple people"]
+			"caption": ">>Twitter Page",
+			"link": "https://twitter.com/jolt_industries",
+			"description": ["- Designed and built a web application for delivering time-sensitive e-commerce information to end users via websockets", "- Implemented a custom identification and verification system for users", "- Concurrently served ~30 users"]
 		}
 	]
 
@@ -97,10 +124,13 @@
 		<div class="sidebar">
 			<aside class="sidebarinfo">
 				>About               
-				<p>
+				<!-- <p>
 					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
+				</p> -->
+				<p>
+					I am a computer science student attending the University of Florida. I have a passion for building things that other people can use and benefit from.
 				</p>
-				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/774535774913429504/1078839731091148820/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
+				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/1030911418607878215/1118701600177934396/Woodruff_Resume.pdf">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
@@ -185,7 +215,7 @@
 
 	<!-- Footer -->
 	<footer class="footer">
-		© 2022 Tyler Woodruff - Thank you to George Hotz, Andrew Haden, and h3x.                
+		© 2023 Tyler Woodruff - Thank you to Andrew Haden, Marco Cognetta, and h3x.                
 	</footer>
 
 </main>
