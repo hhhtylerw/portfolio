@@ -7,7 +7,11 @@
 			"location": "Milwaukee, WI",
 			"title": "Software Engineer Intern",
 			"dates": "Jun 2023 - Aug 2023",
-			"description": ["- In progress..."]
+			"description": 
+				[
+					"- Developed docker migration environment for a Fortune 500 company",
+					"- Presented project to senior leadership and received positive feedback",
+				]
 		},
 		{
 			"name": "FluidSecure",
@@ -128,14 +132,14 @@
 					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
 				</p> -->
 				<p>
-					I am a computer science student attending the University of Florida. I have a passion for building things that other people can use and benefit from.
+					I am a computer science student attending the University of Florida. I like money.
 				</p>
-				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/1030911418607878215/1118701600177934396/Woodruff_Resume.pdf">>>Resume</a></td></tr></table>
+				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/721588904796487755/1175950122346086430/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
 				<p>
-					hhhtylerw@gmail.com<br>
+					hhhtylerw@protonmail.com<br>
 					850-508-5707<br>
 					Gainesville, FL
 				</p>
@@ -209,9 +213,9 @@
 	</div> -->
 
 	<!-- Dolphin -->
-	<div on:click|once={getAnalytics}>
+	<button on:click|once={getAnalytics}>
 		<img src="https://images-ext-1.discordapp.net/external/nUqZz1eJj6Xl7z_lCZgi2Jq5TRexi9KEG315US8AGAI/http/juliannes.website/_n/_images/dolphin-swimming-animation.gif" alt="dolphin" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
-	</div>
+	</button>
 
 	<!-- Footer -->
 	<footer class="footer">
