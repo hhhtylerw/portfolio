@@ -213,9 +213,9 @@
 	</div> -->
 
 	<!-- Dolphin -->
-	<button on:click|once={getAnalytics}>
+	<div on:click|once={getAnalytics}>
 		<img src="https://images-ext-1.discordapp.net/external/nUqZz1eJj6Xl7z_lCZgi2Jq5TRexi9KEG315US8AGAI/http/juliannes.website/_n/_images/dolphin-swimming-animation.gif" alt="dolphin" style="display:block;margin-left:auto;margin-right: auto;min-width: 50%;max-width:100%">
-	</button>
+	</div>
 
 	<!-- Footer -->
 	<footer class="footer">
