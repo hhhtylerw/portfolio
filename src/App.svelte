@@ -158,7 +158,7 @@
 					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
 				</p> -->
 				<p>
-					I am a computer science student attending the University of Florida. I like money.
+					I am a computer science student attending the University of Florida. Programming is cool.
 				</p>
 				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/721588904796487755/1175950122346086430/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
 			</aside>
