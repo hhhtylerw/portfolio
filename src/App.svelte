@@ -3,14 +3,27 @@
 
 	let experiences = [
 		{
+			"name": "Nyte Health",
+			"location": "Remote",
+			"title": "Software Engineer",
+			"dates": "Nov 2023 - Present",
+			"description": 
+				[
+					"- Implemented system to convert proprietary data format to X12 HIPAA EDI format",
+					"- Designed and built cross-platform application for submitting insurance benefits inquiries and claims to payers",
+					"- Created GitHub Actions CI/CD pipeline for deploying cloud-native CDK infrastructure to AWS"
+				]
+		},
+		{
 			"name": "FIS Global",
 			"location": "Milwaukee, WI",
 			"title": "Software Engineer Intern",
 			"dates": "Jun 2023 - Aug 2023",
 			"description": 
 				[
-					"- Developed docker migration environment for a Fortune 500 company",
-					"- Presented project to senior leadership and received positive feedback",
+					"- Collaborated with other interns to design a Docker-based deployment environment for FIS's IST Switch",
+					"- Presented work to senior developers on multi-national teams",
+					"- Wrote and updated documentation for Docker-based IST Switch development and deployment"
 				]
 		},
 		{
@@ -20,9 +33,8 @@
 			"dates": "Jun 2022 - Aug 2022",
 			"description": 
 				[
-					"- Developed frontend changes and fixes for website",
-				 	"- Worked with international team to develop Apple Watch app", 
-					"- Created marketing materials for newly-released products"
+					"- Improved accessibility on company website",
+					"- Created multimedia marketing materials and webpages for newly-released products"
 				]
 		}
 			// },
@@ -43,6 +55,20 @@
 	]
 
 	let projects = [
+		{
+			"name": "Cyber Search (UF Startup Incubator)",
+			"date": "Oct 2023",
+			"caption": ">>Website",
+			"link": "https://www.cybersearch.me",
+			"description": ["- Built a tool for looking up people by their names, phone numbers, addresses, and social media accounts"]
+		},
+		{
+			"name": "OS Network Stack Fingerprinter",
+			"date": "Aug 2023",
+			"caption": ">>GitHub Repo",
+			"link": "https://github.com/hhhtylerw/Hash-Function-Project",
+			"description": ["- Designed and built an application for fingerprinting remote machines' network stacks via TCP/IP packet header values"]
+		},
 		{
 			"name": "Hash Function Comparison",
 			"date": "Dec 2022",
