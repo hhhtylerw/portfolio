@@ -160,7 +160,7 @@
 				<p>
 					I am a computer science student attending the University of Florida. Programming is cool.
 				</p>
-				<table><tr><td><a target="_blank" href="https://cdn.discordapp.com/attachments/721588904796487755/1175950122346086430/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
+				<table><tr><td><a target="_blank" href="/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
