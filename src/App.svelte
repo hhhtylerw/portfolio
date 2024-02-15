@@ -153,12 +153,12 @@
 		<!-- Sidebar -->
 		<div class="sidebar">
 			<aside class="sidebarinfo">
-				>About               
+				>Welcome               
 				<!-- <p>
 					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
 				</p> -->
 				<p>
-					I am a computer science student attending the University of Florida. Programming is cool.
+					Self-driven programmer looking for full-time software engineer and full-stack roles.
 				</p>
 				<table><tr><td><a target="_blank" href="/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
 			</aside>
@@ -245,7 +245,7 @@
 
 	<!-- Footer -->
 	<footer class="footer">
-		© 2023 Tyler Woodruff - Thank you to Andrew Haden, Marco Cognetta, and h3x.                
+		© 2024 Tyler Woodruff - Thank you to Andrew Haden, Marco Cognetta, and h3x.                
 	</footer>
 
 </main>
