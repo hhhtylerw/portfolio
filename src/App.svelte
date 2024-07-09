@@ -160,7 +160,7 @@
 				<p>
 					Self-driven programmer looking for software engineer and full-stack roles.
 				</p>
-				<table><tr><td><a target="_blank" href="/TylerWoodruffResume.pdf">>>Resume</a></td></tr></table>
+				<table><tr><td><a target="_blank" href="/WoodruffResume.pdf">>>Resume</a></td></tr></table>
 			</aside>
 			<aside class="sidebarinfo">
 				>Contact               
