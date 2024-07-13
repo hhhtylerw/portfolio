@@ -3,15 +3,16 @@
 
 	let experiences = [
 		{
-			"name": "Nyte Health",
+			"name": "DropSight",
 			"location": "Remote",
-			"title": "Software Engineer",
-			"dates": "Nov 2023 - Present",
+			"title": "Software Engineer Contractor",
+			"dates": "Feb 2024 - May 2024",
 			"description": 
 				[
-					"- Implemented system to convert proprietary data format to X12 HIPAA EDI format",
-					"- Designed and built cross-platform application for submitting insurance benefits inquiries and claims to payers",
-					"- Created GitHub Actions CI/CD pipeline for deploying cloud-native CDK infrastructure to AWS"
+					"- Developed a full-stack web application to share timely, location-specific information with end users",
+					"- Built with AWS Serverless tools, frameworks, and CDK to allow for infinite scale",
+					"- Worked constantly and directly with client to meet dynamic app requirements",
+					"- Implemented GitHub Actions CI/CD pipeline to automatically deploy pushed changes to dev and main branches"
 				]
 		},
 		{
@@ -21,9 +22,9 @@
 			"dates": "Jun 2023 - Aug 2023",
 			"description": 
 				[
-					"- Collaborated with other interns to design a Docker-based deployment environment for FIS's IST Switch",
-					"- Presented work to senior developers on multi-national teams",
-					"- Wrote and updated documentation for Docker-based IST Switch development and deployment"
+					"- Designed and implemented Docker-based environment for migrating existing codebase to cloud",
+					"- Presented updates to development of proof-of-concept to senior developers weekly",
+					"- Wrote documentation for developing within Docker-based environment"
 				]
 		},
 		{
@@ -33,28 +34,20 @@
 			"dates": "Jun 2022 - Aug 2022",
 			"description": 
 				[
-					"- Improved accessibility on company website",
-					"- Created multimedia marketing materials and webpages for newly-released products"
+					"- Improved accessibility (a11y) on customer-facing WordPress website",
+					"- Created multi-media marketing materials and web pages for new products"
 				]
 		}
-			// },
-		// {
-		// 	"name": "0xRay",
-		// 	"location": "Remote",
-		// 	"title": "Co-Owner / Software Engineer",
-		// 	"dates": "Sep 2021 - Oct 2022",
-		// 	"description": ["- Created and hosted a free application with 2.5k+ users", "- Worked with a team to advertise and monetize product"]
-		// },
-		// {
-		// 	"name": "Jolt Industries",
-		// 	"location": "Remote",
-		// 	"title": "Software Engineer / Sales",
-		// 	"dates": "Nov 2020 - Jan 2022",
-		// 	"description": ["- Created free, consumer-oriented software that enabled users to profit", "- Marketed software and IP proxy solutions"]
-		// }
 	]
 
 	let projects = [
+		{
+			"name": "Nyte Health (UF Startup Incubator)",
+			"date": "Dec 2023",
+			"caption": ">>...",
+			"link": "https://www.tyle.rw",
+			"description": ["- Developed system to send, receive, and manage insurance forms to/from payers and clearinghouses"]
+		},
 		{
 			"name": "Cyber Search (UF Startup Incubator)",
 			"date": "Oct 2023",
