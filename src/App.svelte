@@ -159,7 +159,6 @@
 				>Contact               
 				<p>
 					hhhtylerw@protonmail.com<br>
-					850-508-5707<br>
 					Gainesville, FL
 				</p>
 				<table>
