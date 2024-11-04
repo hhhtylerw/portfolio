@@ -151,7 +151,7 @@
 					I am a self-taught software engineer attending the University of Florida. I enjoy making things that people can benefit from and improve their lives with.
 				</p> -->
 				<p>
-					Self-driven programmer looking for software engineer and full-stack roles.
+					Software engineer.
 				</p>
 				<table><tr><td><a target="_blank" href="/WoodruffResume.pdf">>>Resume</a></td></tr></table>
 			</aside>
